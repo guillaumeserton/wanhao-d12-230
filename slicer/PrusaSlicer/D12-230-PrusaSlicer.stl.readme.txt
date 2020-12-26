@@ -1,0 +1,7 @@
+Crédit :
+Renaud Iltis de https://tamtam3d.fr/
+https://www.youtube.com/channel/UCfjqvw-1_uTale6gmoo_o0g
+Lien d'origine : https://tamtam3d.fr/telechargements/D12-230-PrusaSlicer.zip
+
+---------------
+Importer ou Copier le fichier D12-230-PrusaSlicer.stl dans les dossiers de PrusaSlicer pour afficher la bonne origine pour la D12-230
