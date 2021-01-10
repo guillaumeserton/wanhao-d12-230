@@ -1,0 +1,5 @@
+;T0
+;G92 E0 ; reset extrusion distance
+;G1 F1000 E60
+;G92 E0 ; reset extrusion distance
+;M104 S

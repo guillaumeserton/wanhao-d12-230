@@ -1,0 +1,18 @@
+;Start G-Code in Printer Settings for Wanhao Duplicator D12/230 mono
+;M104 S170 ; Consigne temperature buse prechauffage anti-coulures
+;M190 S{material_bed_temperature_layer_0} ; Attente temperature plateau couche 0
+;M109 S{material_print_temperature_layer_0} : Attente temperature buse couche 0
+G21 ; set to metric values
+G90 ; set to absolute positioning
+M82 ; set extruder to absolute mode
+M107 ; start with the fan off
+G28 X0 Y0 ; move X/Y to min endstops
+G28 Z0 ; move Z to min endstops
+G1 Z15.0 F120 ; move the platform down 15mm
+G92 E0 ; reset extrusion distance
+G1 F120
+M900 K140 ; set K-factor
+M117 K140
+G1 X0 Y10 Z0.3 E5 F3000 ; get ready to prime
+G92 E0 ; reset extrusion distance
+G1 X0 Y100 Z0.5 E25 F600 ; prime nozzle

@@ -1,0 +1,6 @@
+;G92 E0 ; reset extrusion distance
+;G1 F800 E-5
+;G1 F2400 X230 Y200
+;;G1 F3000 E-60
+;G92 E0 ; reset extrusion distance
+;G90 ; set to absolute positioning

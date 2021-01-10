@@ -1,9 +1,0 @@
-;End G-Code for Cura in Printer Settings for Wanhao Duplicator 12/230 mono
-M104 T0 S0 ; turn off hotend/extruder heater
-M104 T1 S0 ; turn off hotend/extruder heater
-M140 S0 ; turn off bed heater
-G92 E1
-G1 E-1 F300 ; retract the filament a bit before lifting the nozzle to release some of the pressure
-G28 X0 Y0 ; home axis
-M84 ; disable motors
-M106 S0 ; turn off fan
